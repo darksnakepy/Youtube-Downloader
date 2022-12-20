@@ -7,10 +7,7 @@ from tkinter.filedialog import askdirectory
 def choosePath():
     Tk().withdraw() 
     path = askdirectory() 
-
     return path
-    
-
 
 def downloadingVidmp4(url):
     ytDw = YouTube(str(url))
